@@ -6,7 +6,7 @@
     "description": "an extension that displays freakybob on click",
   
     "icons": {
-      "48": "icons/border-48.png"
+      "48": "freakybob.png"
     },
     "browser_action": {
         "default_popup": "freaky.html"
