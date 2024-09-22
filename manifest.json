@@ -2,9 +2,9 @@
     "manifest_version": 3,
     "name": "Freakybob for Chrome",
     "description": "a chrome extension that displays freakybob on click",
-    "version": "1.0",
+    "version": "1.1",
     "action": {
       "default_popup": "freaky.html",
-      "default_icon": "freakybob.webp"
+      "default_icon": "freakybob.png"
     }
   }
