@@ -9,7 +9,7 @@
       "48": "icons/border-48.png"
     },
     "browser_action": {
-        "default_popup": "placeholder, not ready"
+        "default_popup": "freaky.html"
       }
   }
   
