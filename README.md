@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/39bb9c99-ad0d-4e52-8f33-098a2ad60590)
+
 # How to Install
 (Only tested on Chrome, probably works on other browsers!)
 1. Download the repository as zip.
