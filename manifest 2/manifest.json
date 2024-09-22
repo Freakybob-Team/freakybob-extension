@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Freakybob Manifest 2",
+    "version": "1.0",
+  
+    "description": "an extension that displays freakybob on click",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+    "browser_action": {
+        "default_popup": "placeholder, not ready"
+      }
+  }
+  
