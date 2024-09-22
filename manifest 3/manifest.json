@@ -8,7 +8,7 @@
     "manifest_version": 3,
     "name": "Freakybob Manifest 3",
     "description": "an extension that displays freakybob on click",
-    "version": "1.3",
+    "version": "1.4",
     "action": {
       "default_popup": "freaky.html",
       "default_icon": "freakybob.png"
