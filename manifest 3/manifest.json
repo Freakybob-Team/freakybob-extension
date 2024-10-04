@@ -1,16 +1,22 @@
 {
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "freakybob@freakybob.site",
-      "strict_min_version": "58.0"
-    }
-  },
+    "name": "Freakybob",
+    "description": "freakybob for your browser",
+    "version": "2.0",
     "manifest_version": 3,
-    "name": "Freakybob Manifest 3",
-    "description": "an extension that displays freakybob on click",
-    "version": "1.4",
+    "permissions": ["activeTab", "contextMenus", "scripting"],
     "action": {
-      "default_popup": "freaky.html",
-      "default_icon": "freakybob.png"
-    }
-  }
+        "default_popup": "freaky.html",
+        "default_icon": "freakybob.png"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "web_accessible_resources": [
+        {
+            "resources": ["images/freakybob.png"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}

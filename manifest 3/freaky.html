@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: "Noto Sans", sans-serif;
-        }
-    </style>
-</head>
-<body>
-<img src="freakybob.png">
-<p>Want more? Go to <a href="https://freakybob.site">freakybob.site</a>!</p>
-<a href="old.html"><button>Button Test</button></a>
-</body>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: "Noto Sans", sans-serif;
+                background-image: url(bikinibottom.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                padding: 0;
+                min-height: 50vh;
+                min-width: 95vw;
+                position: relative;
+                overflow: hidden;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            }
+
+            body::-webkit-scrollbar {
+                display: none;
+            }
+
+            p {
+                color: white;
+            }
+
+            .freakybob {
+                width: 40px;
+                height: auto;
+            }
+
+            .freaktext {
+                top: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <p><img src="freakybob.png" class="freakybob"></p>
+            <p class="freaktext"> Freakybob for /web/ </p>
+        </div>
+    <p>Want more? Go to <a href="https://freakybob.site" target="_blank">freakybob.site</a>!</p>
+    <p>Made by the Freakybob Team!</p>
+    </body>
+</html>
